@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenMU Compatible](https://img.shields.io/badge/OpenMU-Ready-brightgreen)](https://github.com/MUnique/OpenMU)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue)](https://github.com/hellonullen/muonline-spawn-converter)
+[![Author Website](https://img.shields.io/badge/Author-kadircanuredi.com.tr-0ea5e9?style=flat-square&logo=google-chrome&logoColor=white)](https://kadircanuredi.com.tr)
 
 A modern, high-performance C# CLI tool and class library designed to parse classic MU Online `MonsterSetBase.txt` files and seamlessly convert them into **OpenMU Map Editor JSON**, universal JSON, or back into formatted `MonsterSetBase.txt`.
 
@@ -186,6 +187,16 @@ muonline-spawn-converter/
 ├── LICENSE                        # MIT License
 └── README.md                      # Documentation
 ```
+
+---
+
+## 👤 Author & Engineering
+
+Developed by **Kadircan Üredi** (NulleN) — Systems & Game Systems Engineer.
+- 🌐 **Official Website:** [https://kadircanuredi.com.tr](https://kadircanuredi.com.tr)
+- 🐙 **GitHub:** [@hellonullen](https://github.com/hellonullen)
+- 🎮 **Specialties:** Game protocol engineering, emulator architecture, high-performance backends.
+- 📧 **Contact:** [contact@kadircanuredi.com.tr](mailto:contact@kadircanuredi.com.tr)
 
 ---
 
