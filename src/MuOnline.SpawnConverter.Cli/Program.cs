@@ -1,4 +1,4 @@
-﻿namespace MuOnline.SpawnConverter.Cli;
+namespace MuOnline.SpawnConverter.Cli;
 
 using System.Text.Json;
 using MuOnline.SpawnConverter.Core.Data;
