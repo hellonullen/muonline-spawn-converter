@@ -1,0 +1,45 @@
+// =============================================================================
+// MU ONLINE SEASON 6 - SAMPLE MONSTERSETBASE (LORENCIA)
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// Section 0: Static NPCs & Guards
+// Format: MobID  MapID  Distance  X    Y    Dir
+// -----------------------------------------------------------------------------
+0
+240  0  0  125  125  3  // Safety Guard (Lorencia Center)
+240  0  0  135  125  1  // Safety Guard (Lorencia East Gate)
+240  0  0  125  135  7  // Safety Guard (Lorencia North Gate)
+240  0  0  115  125  5  // Safety Guard (Lorencia West Gate)
+240  0  0  125  115  3  // Safety Guard (Lorencia South Gate)
+248  0  0  122  110  3  // Martin the Wandering Merchant
+249  0  0  131  88   2  // Guard (South Entrance)
+250  0  0  183  137  2  // Wandering Merchant (Bar Area)
+251  0  0  116  141  3  // Hanzo the Blacksmith
+253  0  0  127  86   1  // Amy the Potion Girl
+254  0  0  118  113  3  // Pasi the Mage
+255  0  0  123  135  2  // Lumen the Barmaid
+257  0  0  96   129  2  // Shadow Phantom Soldier (Buff NPC)
+end
+
+// -----------------------------------------------------------------------------
+// Section 1: Roaming Monster Areas
+// Format: MobID  MapID  Distance  X1   Y1   X2   Y2   Dir  Quantity
+// -----------------------------------------------------------------------------
+1
+3    0  20  150  10   240  100  -1  35  // Spiders (East plains)
+2    0  20  10   150  100  240  -1  30  // Budge Dragons (West plains)
+0    0  30  140  140  220  220  -1  40  // Bull Fighters (North-East fields)
+1    0  30  20   20   110  110  -1  25  // Hounds (South-West fields)
+4    0  30  170  170  245  245  -1  20  // Elite Bull Fighters (Deep North-East)
+end
+
+// -----------------------------------------------------------------------------
+// Section 2: Concentrated Hotspots
+// Format: MobID  MapID  Range  X    Y    Dir  Quantity
+// -----------------------------------------------------------------------------
+2
+0    0  3  195  165  -1  6  // Bull Fighter Hotspot #1
+0    0  4  210  190  -1  8  // Bull Fighter Hotspot #2
+3    0  3  185  75   -1  7  // Spider Hotspot (East)
+end

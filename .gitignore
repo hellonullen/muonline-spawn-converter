@@ -1,0 +1,22 @@
+## .NET / Visual Studio
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.suo
+*.userprefs
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Build & Release Artifacts
+dist/
+publish/
+
+## Sample Generated Output (keep folder, ignore dynamic output files)
+samples/output/
+!samples/output/.gitkeep

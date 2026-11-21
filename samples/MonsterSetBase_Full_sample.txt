@@ -1,0 +1,64 @@
+// =============================================================================
+// MU ONLINE SEASON 6 - MULTI-MAP SAMPLE MONSTERSETBASE
+// Maps: Lorencia (0), Dungeon (1), Devias (2), Noria (3), Lost Tower (4), Tarkan (8)
+// =============================================================================
+
+0
+// Lorencia NPCs
+240  0  0  125  125  3  // Safety Guard
+251  0  0  116  141  3  // Hanzo the Blacksmith
+254  0  0  118  113  3  // Pasi the Mage
+255  0  0  123  135  2  // Lumen the Barmaid
+257  0  0  96   129  2  // Shadow Phantom Soldier
+
+// Devias NPCs
+240  2  0  218  25   3  // Devias Guard
+244  2  0  225  25   3  // Celia the Armor Merchant
+247  2  0  227  47   2  // Bolo the Weapon Merchant
+
+// Noria NPCs
+240  3  0  171  108  3  // Noria Guard
+242  3  0  173  125  3  // Elf Lala
+232  3  0  180  103  2  // Chaos Goblin
+end
+
+1
+// Lorencia Spawns
+3    0  20  150  10   240  100  -1  30  // Spider
+0    0  30  140  140  220  220  -1  35  // Bull Fighter
+1    0  30  20   20   110  110  -1  25  // Hound
+
+// Dungeon Spawns
+10   1  20  110  120  140  150  -1  20  // Dark Knight
+11   1  20  10   10   50   50   -1  25  // Ghost
+14   1  20  200  200  240  240  -1  15  // Skeleton Warrior
+
+// Devias Spawns
+19   2  25  150  150  220  220  -1  35  // Yeti
+20   2  25  10   10   100  100  -1  20  // Elite Yeti
+22   2  20  50   50   120  120  -1  30  // Ice Monster
+
+// Noria Spawns
+26   3  25  140  140  200  200  -1  35  // Goblin
+27   3  25  50   50   120  120  -1  25  // Chain Scorpion
+28   3  20  10   10   80   80   -1  30  // Beetle Monster
+
+// Lost Tower Spawns
+35   4  25  150  150  220  220  -1  25  // Shadow Pawn
+36   4  25  10   10   100  100  -1  20  // Shadow Knight
+38   4  20  80   80   140  140  -1  15  // Cursed Wizard
+
+// Tarkan Spawns
+67   8  25  100  100  180  180  -1  20  // Mutant
+60   8  25  150  50   220  120  -1  25  // Bloody Wolf
+57   8  20  200  150  245  200  -1  15  // Iron Wheel
+end
+
+2
+// Spots across maps
+0    0  3   195  165  -1  6  // Lorencia Bull Fighter Spot
+19   2  4   180  180  -1  7  // Devias Yeti Spot
+26   3  3   160  160  -1  8  // Noria Goblin Spot
+36   4  4   90   90   -1  6  // Lost Tower Shadow Knight Spot
+67   8  3   130  130  -1  5  // Tarkan Mutant Spot
+end
